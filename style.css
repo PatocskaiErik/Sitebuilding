@@ -1,0 +1,32 @@
+.point-img-zoom img {
+  transform-origin: center;
+  transition: transform 1s, filter 1s ease-out;
+}
+/* The Transformation */
+.point-img-zoom:hover img {
+  transform: scale(3);
+  align: center;
+}
+
+.brightness-img img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(70%);
+}
+
+/* The Transformation */
+.brightness-img:hover img {
+  filter: brightness(100%);
+  transform: scale(2);
+}
+
+/* Quick-zoom Container */
+.quick-img-zoom {
+  transform-origin: 0vw;
+  transition: transform 0.25s, visibility 0.25s ease-in;
+  margin: 0 auto;
+}
+/* The Transformation */
+.quick-img-zoom:active img {
+  transform: scale(2);
+}
