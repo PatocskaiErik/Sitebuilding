@@ -1,0 +1,17 @@
+body {
+  background-color: pink;
+}
+
+.breadcrumb {
+  height: 5vh;
+  background-color: green;
+}
+
+.carousel-item {
+  height: 90vh;
+}
+
+footer {
+  height: 5vh;
+  background-color: orange;
+}
