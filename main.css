@@ -7,10 +7,6 @@ body {
   background-color: green;
 }
 
-img {
-  max-height: 90vh;
-}
-
 .carousel-item {
   height: 90vh;
 }
