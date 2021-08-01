@@ -14,6 +14,10 @@ body {
   height: 85vh;
 }
 
+.carousel-item img {
+  margin: auto;
+}
+
 footer {
   height: 5vh;
   background-color: orange;
