@@ -3,11 +3,20 @@ body {
 }
 
 .breadcrumb {
-  justify-content: center;
-  align-items: center;
   height: 10vh;
+  align-items: center;
+  justify-content: space-around;
   font-size: 1.25rem;
-  background-color: green;
+  --bs-breadcrumb-divider: '';
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: rgb(0, 153, 255);
+  text-decoration: underline;
 }
 
 .carousel-item {
@@ -21,4 +30,23 @@ body {
 footer {
   height: 5vh;
   background-color: orange;
+}
+
+@media only screen and (min-width: 576px) {
+  .breadcrumb {
+    justify-content: center;
+    --bs-breadcrumb-divider: '/';
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .breadcrumb {
+    height: 5vh;
+    font-size: 1rem;
+    justify-content: start;
+  }
+
+  .carousel-item {
+    height: 90vh;
+  }
 }
