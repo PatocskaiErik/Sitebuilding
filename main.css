@@ -12,11 +12,13 @@ body {
   --bs-breadcrumb-divider: '';
 }
 
-.breadcrumb-item a {
+.breadcrumb-item a,
+.footer-row div a {
   text-decoration: none;
 }
 
-.breadcrumb-item a:hover {
+.breadcrumb-item a:hover,
+.footer-row div a:hover {
   color: rgb(0, 153, 255);
   text-decoration: underline;
 }
