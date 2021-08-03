@@ -2,3 +2,9 @@
   background-color: grey;
   margin-top: 50px;
 }
+.row {
+  display: flex;
+}
+.body {
+  color: black;
+}
