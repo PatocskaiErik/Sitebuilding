@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Rendelési űrlap</title>
+    <link rel="stylesheet" href="page2.css">
   </head>
   <body>
     <div class="container-fluid">
+      <div class="row bg-dark">
+        <div class="col p-0 breadcrumb-col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb m-0 px-2">
+              <li class="breadcrumb-item" >
+                <a href="./main.html">Kezdőlap</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="./show.html">Autók</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Rendelés
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-12">
           <fieldset>
@@ -102,6 +120,35 @@
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
           <fieldset>
             <legend>Megjegyzés</legend>
             <textarea name="szoveg" rows="4" cols="30" placeholder="Üzenet szövege..." required></textarea>
@@ -114,6 +161,83 @@
           </div>
           <p class="submit"><input type="submit" value="Megrendel" /></p>
         </div>
+      </div>
+      <div class="row footer-row bg-dark">
+        <div
+          class="
+            col col-sm-auto
+            px-sm-4
+            col-xl-4
+            px-xl-2
+            text-center text-xl-start
+          "
+        >
+          <a href="tel:+55-5555-5555"
+            ><i class="pe-xl-2 bi bi-phone-fill"></i
+            ><span class="footer-link-text d-none d-xl-inline"
+              >+55-5555-5555</span
+            ></a
+          >
+        </div>
+        <div
+          class="
+            col col-sm-auto
+            px-sm-4
+            col-xl-4
+            px-xl-2
+            text-center text-xl-start
+          "
+        >
+          <a href="mailto:mail@example.com"
+            ><i class="pe-xl-2 bi bi-envelope-fill d-inline"></i
+            ><span class="d-none d-xl-inline">mail@example.com</span>
+          </a>
+        </div>
+        <div
+          class="
+            col col-sm-auto
+            px-sm-4
+            col-xl-4
+            px-xl-2
+            text-center text-xl-start
+          "
+        >
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="pe-xl-2 bi bi-instagram"></i
+            ><span class="d-none d-xl-inline"
+              >https://www.instagram.com</span
+            ></a
+          >
+        </div>
+        <div
+          class="
+            col col-sm-auto
+            px-sm-4
+            col-xl-4
+            px-xl-2
+            text-center text-xl-start
+          "
+        >
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="pe-xl-2 bi bi-twitter"></i
+            ><span class="d-none d-xl-inline">https://twitter.com</span></a
+          >
+        </div>
+        <div
+          class="
+            col col-sm-auto
+            px-sm-4
+            col-xl-4
+            px-xl-2
+            text-center text-xl-start
+          "
+        >
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="pe-xl-2 bi bi-facebook"></i
+            ><span class="d-none d-xl-inline">https://www.facebook.com</span></a
+          >
+        </div>
+        <div class="col d-none d-xl-block"></div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
