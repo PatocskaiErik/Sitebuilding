@@ -132,4 +132,13 @@
     height: 10vh;
     font-size: 1.25rem;
   }
+  #site {
+    margin-top: 70px;
+  }
+  #contact {
+    margin-top: 70px;
+    text-align: center;
+  }
+  #massage {
+  }
 }
