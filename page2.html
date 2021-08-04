@@ -13,7 +13,7 @@
         <div class="col p-0 breadcrumb-col">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb m-0 px-2">
-              <li class="breadcrumb-item" >
+              <li class="breadcrumb-item">
                 <a href="./main.html">Kezdőlap</a>
               </li>
               <li class="breadcrumb-item">
@@ -29,213 +29,192 @@
       <div class="row">
         <div class="col-sm-12">
           <fieldset>
-            <legend> Megrendelő adatok: </legend>
-              <div class="row">
-                <div class="col-sm-2">
-                  <p>
-                    <label for="name" class="label-1">Név</label>
-                  </p>
-                </div>
-                <div class="col-sm-10">
-                  <p>
-                    <input type="text" name="name" placeholder="Kérem a nevet..." required>
-                  </p>
-                </div>
+            <legend>Megrendelő adatok:</legend>
+            <div class="row">
+              <div class="col-sm-2">
+                <p>
+                  <label for="name" class="label-1">Név</label>
+                </p>
               </div>
-              <div class="row">
-                <div class="col-sm-2">
-                  <p>
-                    <label for="email" class="label-1">Telefon</label>
-                  </p>
-                </div>
-                <div class="col-sm-10">
-                  <p>
-                    <input type="email" name="email" placeholder="+36..." required>
-                  </p>
-                </div>
+              <div class="col-sm-10">
+                <p>
+                  <input type="text" name="name" placeholder="Kérem a nevet..." required>
+                </p>
               </div>
-              <div class="row">
-                <div class="col-sm-2">
-                  <p>
-                    <label for="url" class="label-1">E-mail cím</label>
-                  </p>
-                </div>
-                <div class="col-sm-10">
-                  <p>
-                    <input type="url" name="url" placeholder="pelda.anna@valami.hu">
-                  </p>
-                </div>
-              </div>
-          </fieldset>
-          <div class="row">
-            <div class="col-sm-6">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Gépkocsi kiválasztása</option>
-                <option value="1">Lamborghini</option>
-                <option value="2">Koenigsegg</option>
-                <option value="3">Mclaren</option>
-              </select>
             </div>
-          </div>
+            <div class="row">
+              <div class="col-sm-2">
+                <p>
+                  <label for="email" class="label-1">Telefon</label>
+                </p>
+              </div>
+              <div class="col-sm-10">
+                <p>
+                  <input type="email" name="email" placeholder="+36..." required>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2">
+                <p>
+                  <label for="url" class="label-1">E-mail cím</label>
+                </p>
+              </div>
+              <div class="col-sm-10">
+                <p>
+                  <input type="url" name="url" placeholder="pelda.anna@valami.hu">
+                </p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-5">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Gépkocsi kiválasztása</option>
+            <option value="1">Lamborghini</option>
+            <option value="2">Koenigsegg</option>
+            <option value="3">Mclaren</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
               4 ajtóval
             </label>
           </div>
+        </div>
+        <div class="col">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
               4 kerékkel
             </label>
           </div>
+        </div>
+        <div class="col">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
               kormánnyal
             </label>
           </div>
+        </div>
+        <div class="col">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
               motorral
             </label>
           </div>
+        </div>
+        <div class="col">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
               üléssel
             </label>
           </div>
-          <div class="container">
-            <form>
-              <div class="form-group">
-                <label for="formControlRange">Árcsúszka (millió Ft)</label>
-                <input type="range" min = "10" max = "110" class="form-control-range" id="formControlRange" onInput="$('#rangeval').html($(this).val())">
-                <span id="rangeval">60</span>
-              </div>
-            </form>
-          </div>
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-          <table class="table">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="customRange2" class="form-label">Árcsúszka (millió Ft)</label>
+          <input type="range" value="50" min="0" max="100" oninput="this.nextElementSibling.value = this.value" />
+          <output>50</output>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <table class="table table-hover">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Sorszám</th>
+                <th scope="col">Típus</th>
+                <th scope="col">Ár</th>
+                <th scope="col">Végsebesség</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">1</th>
+                <th scope="row">1.</th>
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
+                <th scope="row">2.</th>
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td>@fat</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
+                <th scope="row">3.</th>
+                <td>Larry the Bird</td>
+                <td>yo</td>
                 <td>@twitter</td>
               </tr>
             </tbody>
           </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <fieldset>
             <legend>Megjegyzés</legend>
-            <textarea name="szoveg" rows="4" cols="30" placeholder="Üzenet szövege..." required></textarea>
+            <div class="row">
+              <div class="col">
+                <textarea name="szoveg" rows="4" cols="30" placeholder="Üzenet szövege..." required></textarea>
+              </div>
+            </div>           
           </fieldset>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
             <label class="form-check-label" for="flexCheckIndeterminate">
               Fizetési kötelezettségemet tudomásul vettem.
             </label>
           </div>
-          <p class="submit"><input type="submit" value="Megrendel" /></p>
         </div>
       </div>
+      <input class="btn btn-primary my-2 mb-5" type="submit" value="Megrendel" />
       <div class="row footer-row bg-dark">
-        <div
-          class="
-            col col-sm-auto
-            px-sm-4
-            col-xl-4
-            px-xl-2
-            text-center text-xl-start
-          "
-        >
-          <a href="tel:+55-5555-5555"
-            ><i class="pe-xl-2 bi bi-phone-fill"></i
-            ><span class="footer-link-text d-none d-xl-inline"
-              >+55-5555-5555</span
-            ></a
-          >
-        </div>
-        <div
-          class="
-            col col-sm-auto
-            px-sm-4
-            col-xl-4
-            px-xl-2
-            text-center text-xl-start
-          "
-        >
-          <a href="mailto:mail@example.com"
-            ><i class="pe-xl-2 bi bi-envelope-fill d-inline"></i
-            ><span class="d-none d-xl-inline">mail@example.com</span>
+        <div class="col col-sm-auto px-sm-4 col-xl-4 px-xl-2 text-center text-xl-start">
+          <a href="tel:+55-5555-5555">
+            <i class="pe-xl-2 bi bi-phone-fill"></i>
+            <span class="footer-link-text d-none d-xl-inline">+55-5555-5555</span>
           </a>
         </div>
-        <div
-          class="
-            col col-sm-auto
-            px-sm-4
-            col-xl-4
-            px-xl-2
-            text-center text-xl-start
-          "
-        >
-          <a href="https://www.instagram.com/" target="_blank"
-            ><i class="pe-xl-2 bi bi-instagram"></i
-            ><span class="d-none d-xl-inline"
-              >https://www.instagram.com</span
-            ></a
-          >
+        <div class="col col-sm-auto px-sm-4 col-xl-4 px-xl-2 text-center text-xl-start">
+          <a href="mailto:mail@example.com">
+            <i class="pe-xl-2 bi bi-envelope-fill d-inline"></i>
+            <span class="d-none d-xl-inline">mail@example.com</span>
+          </a>
         </div>
-        <div
-          class="
-            col col-sm-auto
-            px-sm-4
-            col-xl-4
-            px-xl-2
-            text-center text-xl-start
-          "
-        >
-          <a href="https://twitter.com/" target="_blank"
-            ><i class="pe-xl-2 bi bi-twitter"></i
-            ><span class="d-none d-xl-inline">https://twitter.com</span></a
-          >
+        <div class="col col-sm-auto px-sm-4 col-xl-4 px-xl-2 text-center text-xl-start">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="pe-xl-2 bi bi-instagram"></i>
+            <span class="d-none d-xl-inline">https://www.instagram.com</span>
+          </a>
         </div>
-        <div
-          class="
-            col col-sm-auto
-            px-sm-4
-            col-xl-4
-            px-xl-2
-            text-center text-xl-start
-          "
-        >
-          <a href="https://www.facebook.com/" target="_blank"
-            ><i class="pe-xl-2 bi bi-facebook"></i
-            ><span class="d-none d-xl-inline">https://www.facebook.com</span></a
-          >
+        <div class="col col-sm-auto px-sm-4 col-xl-4 px-xl-2 text-center text-xl-start">
+          <a href="https://twitter.com/" target="_blank">
+            <i class="pe-xl-2 bi bi-twitter"></i>
+            <span class="d-none d-xl-inline">https://twitter.com</span>
+          </a>
+        </div>
+        <div class="col col-sm-auto px-sm-4 col-xl-4 px-xl-2 text-center text-xl-start">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="pe-xl-2 bi bi-facebook"></i>
+            <span class="d-none d-xl-inline">https://www.facebook.com</span>
+          </a>
         </div>
         <div class="col d-none d-xl-block"></div>
       </div>
