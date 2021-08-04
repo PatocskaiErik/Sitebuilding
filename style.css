@@ -24,6 +24,7 @@
   filter: brightness(100%);
   transform: scale(2);
   position: static;
+  z-index: 999 !important;
 }
 
 /* Quick-zoom Container */
@@ -149,7 +150,7 @@
     text-align: center;
   }
   #szemelyesen{
-    text-align: center;
+    align-items: center;
   }
   #kepek{
     margin-left: 120px;
@@ -163,4 +164,3 @@
   #zsolt{
     margin-left: 65px;
   }
-
