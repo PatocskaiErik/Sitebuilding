@@ -33,7 +33,7 @@
             <div class="row">
               <div class="col-sm-2">
                 <p>
-                  <label for="name" class="label-1">Név</label>
+                  <label for="name" class="label-1">Név:</label>
                 </p>
               </div>
               <div class="col-sm-10">
@@ -45,7 +45,7 @@
             <div class="row">
               <div class="col-sm-2">
                 <p>
-                  <label for="email" class="label-1">Telefon</label>
+                  <label for="email" class="label-1">Telefon:</label>
                 </p>
               </div>
               <div class="col-sm-10">
@@ -57,10 +57,10 @@
             <div class="row">
               <div class="col-sm-2">
                 <p>
-                  <label for="url" class="label-1">E-mail cím</label>
+                  <label for="url" class="label-1">E-mail cím:</label>
                 </p>
               </div>
-              <div class="col-sm-10">
+              <div class="col-sm-10 mb-3">
                 <p>
                   <input type="url" name="url" placeholder="pelda.anna@valami.hu">
                 </p>
@@ -70,12 +70,12 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 mb-5">
+        <div class="col-sm-6 mb-3">
           <select class="form-select" aria-label="Default select example">
             <option selected>Gépkocsi kiválasztása</option>
-            <option value="1">Lamborghini</option>
-            <option value="2">Koenigsegg</option>
-            <option value="3">Mclaren</option>
+            <option value="1">BMW</option>
+            <option value="2">Lamborghini</option>
+            <option value="3">Trabant</option>
           </select>
         </div>
       </div>
@@ -122,14 +122,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col mt-3 mb-3">
           <label for="customRange2" class="form-label">Árcsúszka (millió Ft)</label>
           <input type="range" value="50" min="0" max="100" oninput="this.nextElementSibling.value = this.value" />
           <output>50</output>
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col mb-3">
           <table class="table table-hover">
             <thead>
               <tr>
@@ -142,21 +142,21 @@
             <tbody>
               <tr>
                 <th scope="row">1.</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>BMW M4</td>
+                <td>20 - 25 millió Ft</td>
+                <td>250 - 290 km/h</td>
               </tr>
               <tr>
                 <th scope="row">2.</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Lamborghini Murciélago</td>
+                <td>45 - 100 millió Ft</td>
+                <td>332 - 342 km/h</td>
               </tr>
               <tr>
                 <th scope="row">3.</th>
-                <td>Larry the Bird</td>
-                <td>yo</td>
-                <td>@twitter</td>
+                <td>Trabant 601</td>
+                <td>0.1 - 2 millió Ft</td>
+                <td>100 - 125 km/h</td>
               </tr>
             </tbody>
           </table>
@@ -167,7 +167,7 @@
           <fieldset>
             <legend>Megjegyzés</legend>
             <div class="row">
-              <div class="col">
+              <div class="col mb-3">
                 <textarea name="szoveg" rows="4" cols="30" placeholder="Üzenet szövege..." required></textarea>
               </div>
             </div>           
@@ -175,7 +175,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col mb-2">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
             <label class="form-check-label" for="flexCheckIndeterminate">
