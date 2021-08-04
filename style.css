@@ -139,6 +139,14 @@
     margin-top: 70px;
     text-align: center;
   }
-  #massage {
+  .breadcrumb-item a,
+  .footer-row div a {
+    text-decoration: none;
+  }
+
+  .breadcrumb-item a:hover,
+  .footer-row div a:hover {
+    color: rgb(0, 153, 255);
+    text-decoration: underline;
   }
 }

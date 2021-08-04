@@ -3,7 +3,7 @@
 body {
   overflow: hidden;
   pointer-events: all;
-  background-color: black;
+  background-color: rgba(108, 108, 108, 0.247);
 }
 
 .blockquote {
