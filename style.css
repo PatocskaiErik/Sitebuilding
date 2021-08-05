@@ -24,6 +24,7 @@
   filter: brightness(100%);
   transform: scale(2);
   position: static;
+  z-index: 999 !important;
 }
 
 /* Quick-zoom Container */
@@ -163,4 +164,3 @@
   #zsolt{
     margin-left: 65px;
   }
-
